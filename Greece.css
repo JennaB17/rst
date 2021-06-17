@@ -1,0 +1,41 @@
+/*controls the background color*/
+body {
+  background-color: rgba(17, 230, 17, 0.100);
+}
+
+/*root allows the variables to be applied anywhere in the website when they are used*/
+:root {
+  --color-text: #646363;
+  --size-text: 40px;
+  --text-color: #000000;
+  --text-size: 24px;
+  
+}
+
+/*controls the text in the h1 section*/
+h1 {
+  color: var(--color-text);
+  font-family: 'Charmonman', cursive;
+  font-size: var(--size-text);
+  text-align: center;
+  padding-top: 50px;
+}
+
+/*controls the text in the p paragraph section*/
+p {
+  color: var(--text-color);
+  font-family: 'Dela Gothic One', cursive;
+  font-size: var(--text-size);
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*controls the images*/
+.img-Greece {
+  width: 300px;
+  display: block;
+  margin: 0 auto 0 auto;
+  border-width: 15px; 
+  border-style: solid;
+  border-color: white;
+}
