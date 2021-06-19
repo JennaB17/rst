@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-<!--These are all the different types of font used for this website-->
+<!--These are the different types of fonts used for this website-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,67 +25,65 @@
     <section>
 <!--This controls the navigation bar at the top of the website-->
       <nav>
-<!--logo in the top left corner of the navigation bar-->
-      <a href="#" class="logo">Jenna Balerna's Blog</a>
 <!--different sections in the top right corner of the navigation bar-->
       <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="#footer">Conact Us</a></li>
-<!--footer allow the button contact us to be brought to a different section of the main page-->
-      
-        
+<!--Footer allow the button contact us to be brought to a different section of the main page-->
       </ul>  
       </nav>
-<!--controls the inside text of the top section of the website-->
-      <div class="text-container">
+<!--Class="text" is the title to control the inside text of the top section of the website-->
+      <div class="text">
         <p>To travel is to live.</p>
-        <p>A vacation that will never be forgotten!</p>
+        <h5>A vacation that will never be forgotten!</h5>
       </div>
-
     </section>
-<!--controls the box that talks about me and who I am-->
-    <div class="about-container">
-    
-      <div class="about-text"></div>
+<!--Controls the box that talks about me and who I am-->
+    <div class="about">
+      <div class="about-me"></div>
       <p>Hello, my name is Jenna Balerna and I'm going to tell you all about the countries that I visited during my 2019 Europe trip.  Travelling to Europe is a dream.  Being able to experience different cultures, trying different types of food and seeing the unreal senic sights.  I recommend that you all take a leap of faith and visit some of these amazing countries.  I love to travel and visit so many different countries around the world!</p>
       </div>
-<!--This section below controls the five boxes with five different countries.  Each box has a picture of a designated coutry that I will be talking about.  There is also a text on each box an if you want to read about a certain country, be sure to click on the text and not the image box.-->
-    <div class="travel-section">
-      <ul class="travel-grid">
+<!--This section below controls the five boxes with five different countries.  Each box has a picture of a designated coutry that I will be talking about.  There is also a text on each box and if you want to read about a certain country, be sure to click on the text and not the image box.-->
+    <div class="travel">
+      <ul class="boxes">
         <li>
-          <div class="travel-box travel-img-1">
+          <div class="rectangles one-img">
             <a href="#">
               <h1 style="color: white;">Italy</h1>
               <a style="color: white;" href="Italia.html">Click here to read all about Italy.</a>
             </a>
           </div>
         </li>
+
         <li>
-          <div class="travel-box travel-img-2">
+          <div class="rectangles two-img">
             <a href="#">
               <h1 style="color: white;">Monaco</h1>
               <a style="color: white;" href="Monaco.html">Click here to read all about Monaco.</a>
             </a>
           </div>
         </li>
+
         <li>
-          <div class="travel-box travel-img-3">
+          <div class="rectangles three-img">
             <a href="#">
               <h1 style="color: white;">Spain</h1>
               <a style="color: white;" href="Spain.html">Click here to read all about Spain.</a>
             </a>
           </div>
         </li>
+
         <li>
-          <div class="travel-box travel-img-4">
+          <div class="rectangles four-img">
             <a href="#">
               <h1 style="color: white;">Germany</h1>
               <a style="color: white;" href="Germany.html">Click here to read all about Germany.</a>
             </a>
           </div>
         </li>
+
         <li>
-          <div class="travel-box travel-img-5">
+          <div class="rectangles five-img">
             <a href="#">
               <h1 style="color: white;">Greece</h1>
               <a style="color: white;" href="Greece.html">Click here to read all about Greece.</a>
@@ -94,47 +92,43 @@
         </li>
       </ul>
     </div>
-<!--Here is a survey.  class="row-tab" and class="label-tab" separates the questions from the answers.  In this section there are different types of buttons such as radio buttons and checkboxes.-->
-  <header id="title">
-    <h1>Please complete the survey below.</h1>
+<!--Here is a survey.  class="input" and class="answer" separates the questions from the answers.  In this section there are different types of buttons such as radio buttons and checkboxes.-->
+  <header id="title-survey">
+    <h1>Please complete the survey below and let us know your thoughts.</h1>
   </header>
   <section>
-    <div class="container1" >
-      <div id="description" >
-        <p>Let us know your thoughts.</p>
-      </div>
+    <div class="survey" >
       <form id="survey-form">
-        <div class="row-tab">
-        <div class="label-tab">
+        <div>
+        <div>
           <label>Name</label>
         </div>
-        <div class="input-tab">
+        <div>
           <input type="text" name="Name">
         </div>
         </div>
-        <div class="row-tab">
-        <div class="label-tab">
+        <div>
+        <div>
           <label>Email</label>
         </div>
-        <div class="input-tab">
+        <div>
           <input type="email" name="Email">
         </div>
         </div>
-        <div class="row-tab">
-        <div class="label-tab">
+        <div>
+        <di>
           <label>Age</label>
         </div>
-        <div class="input-tab">
+        <div>
           <input type="number" name="Age">
         </div>
         </div>
-        <div class="row-tab">
-          <div class="label-tab">
+        <div>
+          <div class="input">
             <label>Which country would you like to visit the most?</label>
           </div>
-          <div class="select-tab">
+          <div class="answer">
             <select>
-              <option>Select a country</option>
               <option>Italy</option>
               <option>Monaco</option>
               <option>Spain</option>
@@ -143,24 +137,23 @@
             </select>
           </div>
         </div>
-        <div class="row-tab">
-          <div class="label-tab">
+        <div>
+          <div class="input">
             <label>Have you ever been to Europe before?</label>
           </div>
-          <div class="input-tab">
+          <div class="answer">
             <input type="radio" name="suggest" value="Yes."><label>Yes</label>
             <input type="radio" name="suggest" value="Not yet."><label>Not yet.</label>
           </div>
         </div>
-        <div class="row-tab">
-          <div class="label-tab">
+        <div>
+          <div class="input">
             <label>
               Would you consider living in a different country?
             </label>
           </div>
-          <div class="select-tab" >
+          <div class="answer">
             <select>
-              <option>Select an option</option>
               <option>Absolutely!</option>
               <option>Not Sure</option>
               <option>maybe in the future</option>
@@ -168,20 +161,20 @@
             </select>
           </div>
         </div>
-        <div class="row-tab">
-          <div class="label-tab">
+        <div>
+          <div class="input">
             <label>Did you enjoy reading this website?</label>
           </div>
-          <div class="input-tab" >
+          <div class="answer">
             <input type="checkbox" name="suggest" value="Yes"><label>Yes</label>
             <input type="checkbox" name="suggest" value="No"><label>No</label>
           </div>
         </div>
         <div>
-          <div>
+          <div class="input">
             <label>Where is your dream vacation spot?</label>
           </div>
-          <div>
+          <div class="answer">
             <input type="text" placeholder="Enter here">
             <button type="submit">Submit</button>
           </div>

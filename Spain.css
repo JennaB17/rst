@@ -3,7 +3,7 @@ body {
   background-color: rgba(128, 0, 128, 0.150);
 }
 
-/*root allows the variables to be applied anywhere in the website when they are used*/
+/*Root allows the variables to be applied anywhere in the website when they are used.  Root creates the variable so it can be placed in the website.*/
 :root {
   --color-text: #646363;
   --size-text: 40px;
@@ -32,8 +32,7 @@ p {
 /*controls the images*/
 .img-Spain {
   width: 300px;
-  display: block;
-  margin: 0 auto 0 auto;
+  margin-left: 600px;
   border-width: 15px; 
   border-style: solid;
   border-color: white;
